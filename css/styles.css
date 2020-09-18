@@ -552,11 +552,13 @@ Projects
 }
 @media screen and (min-width: 1170px) {
   .projects-center {
-    grid-template-rows: 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
     gap: 1rem;
     grid-template-areas:
       "a b b"
-      "a c d";
+      "a c d"
+      "e e f"
+      "g h f";
   }
   .project-img {
     height: 100%;
@@ -575,6 +577,18 @@ Projects
   }
   .project-4 {
     grid-area: d;
+  }
+  .project-5 {
+    grid-area: e;
+  }
+  .project-6 {
+    grid-area: f;
+  }
+  .project-7 {
+    grid-area: g;
+  }
+  .project-8 {
+    grid-area: h;
   }
 }
 /*
